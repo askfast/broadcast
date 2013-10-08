@@ -1086,3 +1086,123 @@ body {
 
 
 
+
+
+
+.list_search {
+  height: 47px;
+  width: 52%;
+  background-color: #DBDBDB;
+  border-radius: 25px;
+  margin:0 0 15px 0;
+}
+.list_search123{
+	border:0px none;
+	float:left;
+	background:none;
+	color:#e1358c;
+	height:47px;
+	padding:0 0 0 10px;
+	width:70%;
+}
+.list_search1234{
+	background:url(../images/list-search1.png) no-repeat;
+	float:right;
+	width:34px;
+	height:34px;
+	border:0px none;
+	margin:5px 10px 0 0;
+}
+.football{
+	background:#20C1E9 !important;
+	border-radius:4px;
+	margin:10px 0 0 0;
+	color:#FFFFFF;
+	padding: 7px 0 5px 10px;
+}
+.footbal{
+	color:#FFFFFF;
+	float:left;
+	width:135px;
+	
+}
+.footbal h6{
+	font-size:15px;
+	font-family:Helvetica;
+	margin:0;
+}
+.footbal p{
+	font-size:15px;
+	font-family:Helvetica;
+	margin:0;
+}.therty7{
+	float:left;
+	background:url(../images/contact.png) no-repeat right 0px;
+	font-size:16px;
+	font-family:Helvetica;
+	margin: 5px 30px 10px 30px;
+    padding: 0 27px 0 0;
+}
+.three-img{
+	float:left;
+	padding:3px 30px 5px;
+}
+.three-img img{
+	padding:0px 0 0 7px;
+}
+
+.details{
+	float:left;
+	padding:0 30px;
+}
+.details1{
+	background:url(../images/detail.png) no-repeat;
+	width:82px;
+	height:34px;
+	border:0px none;
+}
+.edit{
+	float:left;
+	padding:0 30px;
+}
+.edit1{
+	background:url(../images/edit.png) no-repeat;
+	width:82px;
+	height:34px;
+	border:0px none;
+}
+.close123{
+	float:left;
+	padding:0 30px 0 0;
+}
+.football-left{
+	float:left;
+}
+.football-right{
+	float:right;
+}
+.date{
+	border-top:5px solid #e1358c;
+	margin:10px 0 0 0;
+}
+.date h2{
+	font-size:27PX;
+	font-family:"Myriad Pro";
+	text-align:left;
+	margin:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
