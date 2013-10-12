@@ -830,6 +830,22 @@ body {
 }
 
 
+.shw{
+	/*margin:10px 0 0 6px;*/
+	width:80%;
+}
+
+.left_icon ul li ul{
+
+	display:none;
+
+}
+
+.left_icon ul li:hover ul{
+	display:block;
+}
+
+
 
 .from_file input[type="checkbox"]{
 
@@ -996,6 +1012,14 @@ body {
 .shortage{
 	padding-left:30px;
 }
+
+.shortage h3{
+	color: #E1358C;
+    font-family: "Dosis";
+    font-size: 29px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
 .work{
 	background-color:#CCCCCC;
 	float:left;
@@ -1035,16 +1059,17 @@ body {
 	margin:0 0 5px 0;
 }
 .broadcast123{
-	padding:5px 20px;
+	padding:5px 15px;
 	margin:0 0 5px 0;
 }
 .broadcast1{
 	float:left;
-	width:50%;
+	width:45%;
 }
 .broadcast1 span{
 	float:left;
 	color:#000;
+	padding:0 10px 0 0;
 }
 .broadcast1 span.u37{
 	float:right;
@@ -1053,14 +1078,16 @@ body {
 	padding:0 0 0 5px;
 }
 .duplicate{
-	float:right;
+	float:left;
+	padding:0 0 0 67px;
 }
 .duplicate1{
-	color: #000000;
+	background-color:#999999;
+	color: #fff;
     font-family: 'HelveticaNeueLT Com 57 Cn';
-    font-size: 10px;
+    font-size: 14px;
 	height: 18px;
-	width: 73px;
+	width: 65px;
 	border:0px none !important;
 }
 
@@ -1082,6 +1109,14 @@ body {
 	margin-top:10px;
 }
 
+.nbc{
+	border: 1px solid #00C0EB;
+    border-radius: 9px 9px 9px 9px;
+    display: block;
+    padding: 14px;
+    position: relative;
+    top: 26px;
+}
 
 
 
@@ -1120,6 +1155,13 @@ body {
 	color:#FFFFFF;
 	padding: 7px 0 5px 10px;
 }
+.football2345{
+	background:#30D4FB !important;
+	border-radius:4px;
+	margin:10px 0 0 0;
+	color:#FFFFFF;
+	padding: 7px 0 5px 10px;
+}
 .footbal{
 	color:#FFFFFF;
 	float:left;
@@ -1153,10 +1195,16 @@ body {
 
 .details{
 	float:left;
-	padding:0 30px;
+	padding:0 0px;
 }
 .details1{
-	background:url(../images/detail.png) no-repeat;
+	background:url(../images/start.png) no-repeat;
+	width:82px;
+	height:34px;
+	border:0px none;
+}
+.dupli{
+	background:url(../images/duplicate.png) no-repeat;
 	width:82px;
 	height:34px;
 	border:0px none;
@@ -1169,6 +1217,12 @@ body {
 	background:url(../images/edit.png) no-repeat;
 	width:82px;
 	height:34px;
+	border:0px none;
+}
+.clone{
+	background:url(../images/clone.png) no-repeat;
+	width:82px;
+	height:35px;
 	border:0px none;
 }
 .close123{
@@ -1195,9 +1249,60 @@ body {
 
 
 
+/*=====================================contact book========================================================*/
+.contact-gray-box{
+	background-color:#CCCCCC;
+	text-align:center;
+	border: 1px solid #797979;
+	padding:150px 0 50px 0;
+	margin:0 0 30px 0;
+}
+.box-contact{
+	margin-top:30px;
+}
+.box-contact span {
+  border: 1px solid #797979;
+  padding: 9px 0;
+  float:left;
+  width:202px;
+  text-align:center;
+  margin:10px 0 0 0;
+}
+.box-contact span.check {
+  border: 1px solid #797979;
+  padding: 8px 0;
+  float:left;
+  width:35px;
+  text-align:center;
+  margin:10px 0 0 0;
+}
+
+.add1234{
+	background-color:#0099FF;
+	border:0px none !important;
+	color:#FFFFFF !important;
+	padding:10px 75px !important;
+	width:120px;
+	margin:10px 0 0 0;
+}
+.add{
+	background-color:#0099FF;
+	border:0px none !important;
+	color:#FFFFFF !important;
+	padding:10px 0 10px 0 !important;
+	width:120px;
+	margin:10px 0 0 0;
+}
+
+.add:hover{
+	background:#00ccff !important;
+}
+.row{
+	margin:0 0 30px 0 !important;
+}
 
 
-
+/*=====================================contact book========================================================*/
 
 
 
