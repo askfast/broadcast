@@ -1,0 +1,389 @@
+@font-face {
+
+ font-family: "Dosis";
+
+ src: url("../fonts/Dosis-SemiBold.eot") /* EOT file for IE */
+
+}
+
+@font-face {
+
+ font-family: "Dosis";
+
+ src: url("../fonts/Dosis-SemiBold.ttf") /* TTF file for CSS3 browsers */
+
+}
+
+
+@font-face {
+
+ font-family: "HelveticaNeueLT Com 57 Cn";
+
+ src: url("../fonts/HelveticaNeueLTCom-Cn.eot") /* EOT file for IE */
+
+}
+
+@font-face {
+
+ font-family: "HelveticaNeueLT Com 57 Cn";
+
+ src: url("../fonts/HelveticaNeueLTCom-Cn.ttf")
+
+}
+
+
+
+
+
+
+
+body { 
+
+	background:url(../images/header_bg.png) repeat-x  top;
+
+	
+
+ 
+
+}
+*{
+	margin:0;
+	padding:0;
+}
+.clear{
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================================================login start===================================================*/
+.login{
+	padding:50px 0 20px 0;
+}
+.heading{
+}
+.log{
+	float:left;	
+}
+.log h1{
+	color:#E1358C;
+}
+.regester{
+	float:right;
+}
+.regester h3 a{
+	text-decoration:underline;
+	color:#E1358C;
+}
+.blue-box{
+	background-color:#00C1EA;
+	padding:50px 30px 30px;
+	border-radius:5px;
+}
+.user-name{
+	margin:0 0 25px 0;
+}
+.user-name span {
+  color: #FFFFFF;
+  float: left;
+  font-family: arial;
+  font-size: 18px;
+  padding: 10px 0px 10px 0;
+  width:110px;
+}
+.login-filed {
+  border: 0 none;
+  border-radius: 10px 10px 10px 10px;
+  height: 50px;
+  min-width: 86%;
+  padding:0 10px;
+}
+.checkbox123{
+	float:left;
+}
+.remmember{
+	float:left !important;
+	width:80% !important;
+	padding:0 0 0 10px !important;
+}
+.fogot1{
+}
+.fogot123{
+	float:right;
+}
+.fogot123 a{
+	color:#FFFFFF;
+	text-decoration:underline;
+	font-size:18px;
+	padding:0 20px 0 0;
+}
+.login-buttan {
+  background-color: #E32E8D;
+  border: 0 none;
+  border-radius: 7px 7px 7px 7px;
+  color: #FFFFFF;
+  float: right;
+  padding: 10px 25px;
+}
+.red-box{
+	background-color:#CE0000;
+	color:#FFFFFF;
+	padding:10px 30px;
+	margin:20px 0 0;
+	border-radius:5px;
+	font-size:16px;
+}
+.gray-box{
+	background-color:#A2A2A2;
+	color:#FFFFFF;
+	padding:10px 30px;
+	margin:20px 0 0;
+	border-radius:5px;
+	font-size:16px;
+}
+.green-box{
+	background-color:#AEDF2C;
+	color:#FFFFFF;
+	padding:10px 30px;
+	margin:20px 0 0;
+	border-radius:5px;
+	font-size:16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================================================login ends===================================================*/
+/*========================================================manual================================================*/
+.login-page-manual{
+	width:100%;
+	border:5px solid #4b7f8c;
+	border-radius:10px;
+	margin:200px 0 0 0;
+}
+.inner-login-manual{
+	padding:0 20px;
+}
+.top-heading-manual{
+	border-bottom:2px solid #e1358c;
+	padding:0 0 10px 0;
+}
+.heading-manual{
+	color: #E1358C;
+    font-family: "Dosis";
+    font-size: 29px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+	float:left;
+}
+.close12345-manual{
+	float:right;
+	padding:25px 0 0 0;
+}
+.login-page-inner-manual{
+}
+.inner-login-img-manual{
+	float:left;
+	padding: 60px 0 0 20px;
+	width:28%;
+}
+.inner-login-fild-manual{
+	float:left;
+	margin: 35px 0 0 50px;
+	width:65%;
+}
+.inner-login-fild-manual span{
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:80px;
+	text-align:right;
+	float:left;
+}
+
+.inner-login-fild1-manual {
+  border: 1px solid #DBDBDB;
+  float: left;
+  height: 35px;
+  margin: 0 0 20px 15px;
+  padding: 0 10px;
+  width: 40%;
+}
+.inner-login-fild-manual span.plus-manual{
+	width:auto;
+	padding:0 0 0 15px;
+}
+.add-contact-manual {
+  background-color: #E1358C;
+  border: 0 none;
+  color: #FFFFFF;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  height: 50px;
+  text-align: center;
+  width: 150px;
+  float: right;
+}
+.add-contact1-manual {
+  width: 58%;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+/*========================================================manual================================================*/
+
+/*========================================================upload================================================*/
+.upload{
+	border-bottom:2px solid #e1358c;
+	padding:0 0 15px;
+}
+.speed-upload{
+	width:75%;
+	margin:10px auto 0;
+}
+.speed-upload p{
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+.speed-upload1{
+	width:75%;
+	margin:20px auto 0;
+}
+.speed-upload123 {
+  float: left;
+  margin: 0 40px 0 0;
+}
+.speed-upload1231 {
+  float: left;
+  padding: 3px 0 0;
+  margin: 0 40px 0 0;
+}
+.speed-upload1232 {
+  float: left;
+  padding: 20px 0 0;
+  margin: 0 40px 0 0;
+}
+.speed-upload1233 {
+  float: left;
+  padding: 29px 0 0;
+  width: 85px;
+  text-align: center;
+  font-weight: bold;
+}
+.speed-upload123 img {
+  padding: 20px 0 0 17px;
+}
+
+
+.speed-upload1231 img {
+  padding: 17px 0 0 22px;
+}
+.speed-upload1232 img {
+  padding: 13px 0 0 7px;
+}
+/*.speed-upload1 ul{
+	list-style:none;
+}
+.speed-upload1 ul li{
+	float:left;
+	padding:0 0 0 70px;
+}*/
+.active123 {
+	background:url(../images/upload4.png) no-repeat;
+	width:100px;
+	height:100px;
+}
+/*.speed-upload1 img{
+	margin:0 0 0 70px;
+}*/
+.upload1-butan {
+  background-color: #E1358C;
+  border: 0 none;
+  color: #FFFFFF;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  height: 50px;
+  text-align: center;
+  width: 150px;
+}
+.upload-butan {
+  width: 19%;
+  margin:20px auto;
+}
+.uploadin10 p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-align:center;
+	padding:10px 0 0 0;
+}
+
+
+.speed-upload1{
+	width:65%;
+	margin:5px auto 0;
+}
+.speed-upload1 p{
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:0;
+}
+
+
+
+.upload-fild1 {
+  margin:15px auto 0; 
+  width: 50%;
+}
+.upload-fild1 span{
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:80px;
+	text-align:right;
+	float:left;
+}
+
+
+.upload-fild123 {
+  border: 1px solid #DBDBDB;
+  float: left;
+  height: 35px;
+  margin:0 0 10px 15px;
+  padding: 0 10px;
+  width: 65%;
+}
+.uploadin10 p.uploadin101{
+	color:#e13589;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-align:center;
+	padding:10px 0 0 0;
+}
+
+
+/*========================================================upload================================================*/

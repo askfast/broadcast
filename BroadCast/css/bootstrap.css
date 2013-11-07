@@ -156,6 +156,7 @@ textarea {
   font-size: 100%;
 }
 
+
 button,
 input {
   line-height: normal;
@@ -6808,3 +6809,14 @@ td.visible-print {
     display: none !important;
   }
 }
+
+.contact-name2 {
+	float: left;
+	width: 100%;
+	}
+.contact-name2 span {
+	float: left;
+	padding-left: 0;
+	text-align:left;
+	width: 25%;
+	}
