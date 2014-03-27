@@ -1,0 +1,43 @@
+
+
+
+BODY{
+	background:grey;	
+}
+.label_radio input  { margin-right: 5px;
+ }
+ .label_radio111 input  { margin-right: 5px;
+ }
+.has-js .label_check,
+.has-js .label_radio    { padding-left: 34px; }
+.has-js .label_radio111    { padding-left: 34px; }
+.has-js .label_radio    { background:url(../images/radio-off.png) no-repeat; }
+.has-js .label_radio111    { background:url(../images/radio-off.png) no-repeat; }
+.has-js .label_check    { background: url(../images/check-off.png) no-repeat; }
+.has-js label.c_on      { background: url(../images/check-on.png) no-repeat; }
+.has-js label.r_on      { background: url(../images/radio-on.png) no-repeat; }
+.has-js .label_check input,
+.has-js .label_radio input  { position: absolute; left: -9999px; }
+.has-js .label_radio111 input  { position: absolute; left: -9999px; }
+
+.label_radio{
+	display: block !important;
+	float: none !important;
+	font-size: 19px !important;
+	margin-bottom: 0px !important;
+	margin-left: 0 !important;
+	margin-top: 5px !important;
+	text-align: left !important;
+}
+
+.tt1232{
+	float: left;
+    margin-top: 6px;
+}
+/*.rad222{
+	display: block !important;
+	font-size: 19px !important;
+	margin-bottom: 11px !important;
+	margin-left: 0 !important;
+	text-align: left !important;
+}*/
