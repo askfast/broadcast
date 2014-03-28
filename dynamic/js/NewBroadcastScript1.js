@@ -779,7 +779,7 @@ function AddBroadcast(x)
 
 function authTwitt()
 {
-	window.location='http://askfastmarket1.appspot.com/accounts/adapterconfigs/twitter/oauth?frontendCallback=http://www.techleadz.com/BroadCast/index.php';
+	window.location='http://askfastmarket1.appspot.com/accounts/adapterconfigs/twitter/oauth?frontendCallback=http://broadcast.ask-fast.com/product/dynamic/index.php';
 	$('#afterAuth').val('set');
 }
 

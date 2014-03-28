@@ -113,7 +113,7 @@ function login(){
 				url="login.php";
 				$.post(url,{userid:id,uname:uname,password:passhash,check_no:check_no},function(responce){
 
-				window.location='http://www.techleadz.com/BroadCast/home.php';
+				window.location='http://broadcast.ask-fast.com/product/dynamic/home.php';
 
 
 				})

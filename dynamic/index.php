@@ -12,7 +12,7 @@ function get_oauth2_token($code)
 	
     $client_id = "25458264830-p07df80e2o9o9p956edhniflent44gbr.apps.googleusercontent.com"; //your client id
 	$client_secret = "TFZ5W4Kk0augFlOVPnfUUU58"; //your client secret
-	$redirect_uri = "http://www.techleadz.com/BroadCast/index.php";
+	$redirect_uri = "http://broadcast.ask-fast.com/product/dynamic/index.php";
      
     $oauth2token_url = "https://accounts.google.com/o/oauth2/token";
     $clienttoken_post = array(

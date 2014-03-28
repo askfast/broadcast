@@ -580,7 +580,7 @@ function showadd(){
 function logout(){
 	url="logout.php";
 	$.post(url,function(responce){
-window.location ="/BroadCast/index.php";
+window.location ="/product/dynamic/index.php";
 
 
 	});
