@@ -121,7 +121,7 @@ function login(){
 				
 				
 
-window.location ="/BroadCast/index.php";
+window.location ="../index.php";
 
 
 				})
