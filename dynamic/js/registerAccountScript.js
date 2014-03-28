@@ -116,13 +116,7 @@ function login(){
 						
 				url="login.php";
 				$.post(url,{userid:id,uname:uname,password:passhash,check_no:check_no},function(responce){
-
-				
-				
-				
-
-window.location ="../index.php";
-
+window.location ="./dynamic/index.php";
 
 				})
 					},
@@ -133,9 +127,3 @@ window.location ="../index.php";
 		}
 		
 }
-
-
-
-
-    
-	
