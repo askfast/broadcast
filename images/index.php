@@ -39,7 +39,7 @@ else {
 }
 
    //alert(cntctid);
-		url="http://askfastmarket1.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
+		url="http://askfastmarket.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
 		$.post(url,function(session){
 			var jasonValue = JSON.stringify(session) ; 
 			var n=jasonValue.replace('{"X-SESSION_ID":"',"");
@@ -53,7 +53,7 @@ else {
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url:"http://askfastmarket1.appspot.com/blobstore/sasrgds?!",
+				url:"http://askfastmarket.appspot.com/blobstore/sasrgds?!",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -67,7 +67,7 @@ else {
 	}*/
 function delcnt(cntctid){
    //alert(cntctid);
-		url="http://askfastmarket1.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
+		url="http://askfastmarket.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
 		$.post(url,function(session){
 			var jasonValue = JSON.stringify(session) ; 
 			var n=jasonValue.replace('{"X-SESSION_ID":"',"");
@@ -82,7 +82,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts/"+cntctid,
+				url : "http://askfastmarket.appspot.com/accounts/contacts/"+cntctid,
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -100,7 +100,7 @@ function delcnt(cntctid){
 					beforeSend : function(xhr) {          
 						xhr.setRequestHeader("X-SESSION_ID" , id)
 					  },
-					url : "http://askfastmarket1.appspot.com/accounts/contacts",
+					url : "http://askfastmarket.appspot.com/accounts/contacts",
 					cache: false,
 					crossDomain: true,
 					xhrFields: {
@@ -136,7 +136,7 @@ function delcnt(cntctid){
 						beforeSend : function(xhr) {          
 							xhr.setRequestHeader("X-SESSION_ID" , id)
 						  },
-						url : "http://askfastmarket1.appspot.com/accounts/contactinfos/"+ctid,
+						url : "http://askfastmarket.appspot.com/accounts/contactinfos/"+ctid,
 						//alert(url);
 						cache: false,
 						crossDomain: true,
@@ -202,7 +202,7 @@ function delcnt(cntctid){
 
 }
 	function showcnt(){
-		url="http://askfastmarket1.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
+		url="http://askfastmarket.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
 		$.post(url,function(session){
 			var jasonValue = JSON.stringify(session) ; 
 			var n=jasonValue.replace('{"X-SESSION_ID":"',"");
@@ -212,7 +212,7 @@ function delcnt(cntctid){
 			
 			
 			
-			//  askfastmarket1.appspot.com/blobstore/<abcdef.csv>?!
+			//  askfastmarket.appspot.com/blobstore/<abcdef.csv>?!
 			/*
 			$.ajax({
 			type: "GET",
@@ -222,8 +222,8 @@ function delcnt(cntctid){
 			beforeSend : function(xhr) {          
 				xhr.setRequestHeader("X-SESSION_ID" , id)
 			  }, 
-		   // url : "askfastmarket1.appspot.com/blobstore/<abcdef.csv>?!",
-			url : "askfastmarket1.appspot.com/blobstore/dfdfd.csv?!",
+		   // url : "askfastmarket.appspot.com/blobstore/<abcdef.csv>?!",
+			url : "askfastmarket.appspot.com/blobstore/dfdfd.csv?!",
 			cache: false,
 			crossDomain: true,
 			xhrFields: {
@@ -245,7 +245,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url :"http://askfastmarket1.appspot.com/blobstore/<abcdef.csv>?!",
+				url :"http://askfastmarket.appspot.com/blobstore/<abcdef.csv>?!",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -269,7 +269,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts",
+				url : "http://askfastmarket.appspot.com/accounts/contacts",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -305,7 +305,7 @@ function delcnt(cntctid){
 					beforeSend : function(xhr) {          
 						xhr.setRequestHeader("X-SESSION_ID" , id)
 					  },
-					url : "http://askfastmarket1.appspot.com/accounts/contactinfos/"+ctid,
+					url : "http://askfastmarket.appspot.com/accounts/contactinfos/"+ctid,
 					//alert(url);
 					cache: false,
 					crossDomain: true,
@@ -381,7 +381,7 @@ function delcnt(cntctid){
 		var eml=document.getElementById("eml").value;
 		
 		//alert("Welcome to add new contact\n Your mobile is "+mbn+"\nYour landline is "+ctnum+"\nYour email is "+eml);
-		url="http://askfastmarket1.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
+		url="http://askfastmarket.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
 		$.post(url,function(session){
 			var jasonValue = JSON.stringify(session) ; 
 			var n=jasonValue.replace('{"X-SESSION_ID":"',"");
@@ -400,7 +400,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts",
+				url : "http://askfastmarket.appspot.com/accounts/contacts",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -425,7 +425,7 @@ function delcnt(cntctid){
 					beforeSend : function(xhr) {          
 						xhr.setRequestHeader("X-SESSION_ID" , id)
 					  },
-					url : "http://askfastmarket1.appspot.com/accounts/contacts",
+					url : "http://askfastmarket.appspot.com/accounts/contacts",
 					cache: false,
 					crossDomain: true,
 					xhrFields: {
@@ -461,7 +461,7 @@ function delcnt(cntctid){
 						beforeSend : function(xhr) {          
 							xhr.setRequestHeader("X-SESSION_ID" , id)
 						  },
-						url : "http://askfastmarket1.appspot.com/accounts/contactinfos/"+ctid,
+						url : "http://askfastmarket.appspot.com/accounts/contactinfos/"+ctid,
 						//alert(url);
 						cache: false,
 						crossDomain: true,
@@ -543,7 +543,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  }, 
-				url : "http://askfastmarket1.appspot.com/accounts/contactinfos?strict=true",
+				url : "http://askfastmarket.appspot.com/accounts/contactinfos?strict=true",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -573,7 +573,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts",
+				url : "http://askfastmarket.appspot.com/accounts/contacts",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -598,7 +598,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  }, 
-				url : "http://askfastmarket1.appspot.com/accounts/contactinfos?strict=true",
+				url : "http://askfastmarket.appspot.com/accounts/contactinfos?strict=true",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -620,7 +620,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts",
+				url : "http://askfastmarket.appspot.com/accounts/contacts",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -645,7 +645,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  }, 
-				url : "http://askfastmarket1.appspot.com/accounts/contactinfos?strict=true",
+				url : "http://askfastmarket.appspot.com/accounts/contactinfos?strict=true",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -667,7 +667,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts",
+				url : "http://askfastmarket.appspot.com/accounts/contacts",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -692,7 +692,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  }, 
-				url : "http://askfastmarket1.appspot.com/accounts/contactinfos?strict=true",
+				url : "http://askfastmarket.appspot.com/accounts/contactinfos?strict=true",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -714,7 +714,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts",
+				url : "http://askfastmarket.appspot.com/accounts/contacts",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -739,7 +739,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  }, 
-				url : "http://askfastmarket1.appspot.com/accounts/contactinfos?strict=true",
+				url : "http://askfastmarket.appspot.com/accounts/contactinfos?strict=true",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -766,7 +766,7 @@ function delcnt(cntctid){
 		var eml=document.getElementById("eml").value;
 		
 		//alert("Welcome to add new contact\n Your mobile is "+mbn+"\nYour landline is "+ctnum+"\nYour email is "+eml);
-		url="http://askfastmarket1.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
+		url="http://askfastmarket.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
 		$.post(url,function(session){
 			var jasonValue = JSON.stringify(session) ; 
 			var n=jasonValue.replace('{"X-SESSION_ID":"',"");
@@ -785,7 +785,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts",
+				url : "http://askfastmarket.appspot.com/accounts/contacts",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -810,7 +810,7 @@ function delcnt(cntctid){
 					beforeSend : function(xhr) {          
 						xhr.setRequestHeader("X-SESSION_ID" , id)
 					  },
-					url : "http://askfastmarket1.appspot.com/accounts/contacts",
+					url : "http://askfastmarket.appspot.com/accounts/contacts",
 					cache: false,
 					crossDomain: true,
 					xhrFields: {
@@ -846,7 +846,7 @@ function delcnt(cntctid){
 						beforeSend : function(xhr) {          
 							xhr.setRequestHeader("X-SESSION_ID" , id)
 						  },
-						url : "http://askfastmarket1.appspot.com/accounts/contactinfos/"+ctid,
+						url : "http://askfastmarket.appspot.com/accounts/contactinfos/"+ctid,
 						//alert(url);
 						cache: false,
 						crossDomain: true,
@@ -928,7 +928,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  }, 
-				url : "http://askfastmarket1.appspot.com/accounts/contactinfos?strict=true",
+				url : "http://askfastmarket.appspot.com/accounts/contactinfos?strict=true",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -958,7 +958,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts",
+				url : "http://askfastmarket.appspot.com/accounts/contacts",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -983,7 +983,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  }, 
-				url : "http://askfastmarket1.appspot.com/accounts/contactinfos?strict=true",
+				url : "http://askfastmarket.appspot.com/accounts/contactinfos?strict=true",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -1005,7 +1005,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts",
+				url : "http://askfastmarket.appspot.com/accounts/contacts",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -1030,7 +1030,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  }, 
-				url : "http://askfastmarket1.appspot.com/accounts/contactinfos?strict=true",
+				url : "http://askfastmarket.appspot.com/accounts/contactinfos?strict=true",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -1052,7 +1052,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts",
+				url : "http://askfastmarket.appspot.com/accounts/contacts",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -1077,7 +1077,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  }, 
-				url : "http://askfastmarket1.appspot.com/accounts/contactinfos?strict=true",
+				url : "http://askfastmarket.appspot.com/accounts/contactinfos?strict=true",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -1099,7 +1099,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  },
-				url : "http://askfastmarket1.appspot.com/accounts/contacts",
+				url : "http://askfastmarket.appspot.com/accounts/contacts",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -1124,7 +1124,7 @@ function delcnt(cntctid){
 				beforeSend : function(xhr) {          
 					xhr.setRequestHeader("X-SESSION_ID" , id)
 				  }, 
-				url : "http://askfastmarket1.appspot.com/accounts/contactinfos?strict=true",
+				url : "http://askfastmarket.appspot.com/accounts/contactinfos?strict=true",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -1182,7 +1182,7 @@ function delcnt(cntctid){
 		var rlline='';
 		var remail='';
   	}
-	url="http://askfastmarket1.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
+	url="http://askfastmarket.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
 				$.post(url,function(session){
 				var jasonValue = JSON.stringify(session) ; 
 			    var n=jasonValue.replace('{"X-SESSION_ID":"',"");
@@ -1213,7 +1213,7 @@ function delcnt(cntctid){
 						beforeSend : function(xhr) {          
 							xhr.setRequestHeader("X-SESSION_ID" , id)
 						  },
-						url : "http://askfastmarket1.appspot.com/accounts/groups",
+						url : "http://askfastmarket.appspot.com/accounts/groups",
 						cache: false,
 						crossDomain: true,
 						xhrFields: {
