@@ -73,20 +73,6 @@ function login(){
 				$('#pass').val('');
 				$('#empty_field').show(2000);
 			}
-			
-		 if(uname!='yasir'||pass!='broadcasttest')
-			{
-				if(uname != '' || pass != '' )
-				{
-					$('#uname').val('');
-					$('#pass').val('');
-					$('#empty_field').hide(1000);
-					$('#wrong_pass_msg').show(1000);
-				}
-			
-			}
-					
-			
 		url="http://askfastmarket.appspot.com/login?username="+uname+"&password="+passhash;
 		
 		if(uname != '' && pass != '')
@@ -114,8 +100,6 @@ function login(){
 				$.post(url,{userid:id,uname:uname,password:passhash,check_no:check_no},function(responce){
 
 				window.location='http://broadcast.ask-fast.com/product/dynamic/home.php';
-
-
 				})
 					},
 					error: function (data){
@@ -123,9 +107,4 @@ function login(){
 					}
 			});
 		}
-		
 }
-
-
-    
-	
