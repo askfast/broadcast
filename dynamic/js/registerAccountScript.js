@@ -67,28 +67,13 @@ function login(){
 			}
 			
 		if(uname == '' && pass == '' || uname != uname && pass != pass )
-			{
-				$('#wrong_pass_msg').hide(1000);
-				$('#uname').val('');
-				$('#pass').val('');
-				$('#empty_field').show(2000);
-				return false;
-			}
-			
-		 if(uname!='yasir'||pass!='broadcasttest')
-			{
-				if(uname != '' || pass != '' )
-				{
-					$('#uname').val('');
-					$('#pass').val('');
-					$('#empty_field').hide(1000);
-					$('#wrong_pass_msg').show(1000);
-					return false;
-				}
-			
-			}
-					
-			
+		{
+			$('#wrong_pass_msg').hide(1000);
+			$('#uname').val('');
+			$('#pass').val('');
+			$('#empty_field').show(2000);
+			return false;
+		}
 		url="http://askfastmarket.appspot.com/login?username="+uname+"&password="+passhash;
 		
 		if(uname != '' && pass != '')
