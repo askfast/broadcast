@@ -13,7 +13,7 @@ function startNow(bId,tabId)
 			xhrFields: {
 			withCredentials: true
 			},
-			url : "http://askfastmarket1.appspot.com/products/broadcastnew/resend/"+bId,
+			url : "http://askfastmarket.appspot.com/products/broadcastnew/resend/"+bId,
 			cache: false,
 			crossDomain: true,
 			xhrFields: {
@@ -293,7 +293,7 @@ function updatebroadcast(BID,div_id)
 				xhrFields: {
 				withCredentials: true
 				}, 
-				url : "http://askfastmarket1.appspot.com/products/broadcastnew",
+				url : "http://askfastmarket.appspot.com/products/broadcastnew",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -362,7 +362,7 @@ function updatebroadcast(BID,div_id)
 					xhrFields: {
 					withCredentials: true
 					}, 
-					url : "http://askfastmarket1.appspot.com/products/broadcastnew",
+					url : "http://askfastmarket.appspot.com/products/broadcastnew",
 					cache: false,
 					crossDomain: true,
 					xhrFields: {
@@ -475,7 +475,7 @@ function updatebroadcast(BID,div_id)
 					xhrFields: {
 					withCredentials: true
 					}, 
-					url : "http://askfastmarket1.appspot.com/products/broadcastnew/"+BID,
+					url : "http://askfastmarket.appspot.com/products/broadcastnew/"+BID,
 					cache: false,
 					crossDomain: true,
 					xhrFields: {
@@ -592,7 +592,7 @@ function updatebroadcast(BID,div_id)
 				xhrFields: {
 				withCredentials: true
 				}, 
-				url : "http://askfastmarket1.appspot.com/products/broadcastnew/"+BID,
+				url : "http://askfastmarket.appspot.com/products/broadcastnew/"+BID,
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -787,7 +787,7 @@ function updatebroadcast(BID,div_id)
 					xhrFields: {
 					withCredentials: true
 					}, 
-					url : "http://askfastmarket1.appspot.com/products/broadcastnew/"+BID,
+					url : "http://askfastmarket.appspot.com/products/broadcastnew/"+BID,
 					cache: false,
 					crossDomain: true,
 					xhrFields: {
@@ -880,7 +880,7 @@ function updatebroadcast(BID,div_id)
 									xhrFields: {
 									withCredentials: true
 									},
-									url : "http://askfastmarket1.appspot.com/accounts/groups/"+group_id,
+									url : "http://askfastmarket.appspot.com/accounts/groups/"+group_id,
 									cache: false,
 									crossDomain: true,
 									xhrFields: {
@@ -910,7 +910,7 @@ function updatebroadcast(BID,div_id)
 												xhrFields: {
 												withCredentials: true
 												},
-												url : "http://askfastmarket1.appspot.com/accounts/contactinfos/"+contact_ids[i],
+												url : "http://askfastmarket.appspot.com/accounts/contactinfos/"+contact_ids[i],
 												asycn: false,
 												cache: false,
 												crossDomain: true,
@@ -974,7 +974,7 @@ function updatebroadcast(BID,div_id)
 													xhrFields: {
 													withCredentials: true
 													},
-													url : "http://askfastmarket1.appspot.com/products/broadcastnew",
+													url : "http://askfastmarket.appspot.com/products/broadcastnew",
 													cache: false,
 													crossDomain: true,
 													xhrFields: {
@@ -1180,7 +1180,7 @@ function bb15(smsr,emailr,c,allContactKeys,x)
 			withCredentials: true
 			},
 
-			url : "http://askfastmarket1.appspot.com/accounts/contacts?detailed=true&orderBy=firstName&fetchOwner=false",
+			url : "http://askfastmarket.appspot.com/accounts/contacts?detailed=true&orderBy=firstName&fetchOwner=false",
 			cache: false,
 
 			success: function (data) {
@@ -1503,7 +1503,7 @@ function delbc(broadcastID,divId)
 				xhrFields: {
 				withCredentials: true
 				},
-				url : "http://askfastmarket1.appspot.com/products/broadcastnew/"+broadcastID,
+				url : "http://askfastmarket.appspot.com/products/broadcastnew/"+broadcastID,
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -1661,7 +1661,7 @@ function cloneBackup(broadcastId,div_id,dynamic_counter)
 			xhrFields: {
 			withCredentials: true
 			}, 
-			url : "http://askfastmarket1.appspot.com/products/broadcastnew",
+			url : "http://askfastmarket.appspot.com/products/broadcastnew",
 			cache: false,
 			crossDomain: true,
 			xhrFields: {
@@ -1724,7 +1724,7 @@ function search_broadcast()
 					xhrFields: {
 					withCredentials: true
 					},
-					url : "http://askfastmarket1.appspot.com/products/broadcastnew/prefixsearch/"+search_token1,
+					url : "http://askfastmarket.appspot.com/products/broadcastnew/prefixsearch/"+search_token1,
 					cache: false,
 		
 					success: function (obj) {

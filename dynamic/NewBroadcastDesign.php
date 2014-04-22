@@ -14,12 +14,12 @@ function broadcastFunc(datasinfo,x)
 	var composedurl='';
 	if(x==0)
 		{
-			composedurl="http://askfastmarket1.appspot.com/products/broadcastnew?onlyPersist=false"
+			composedurl="http://askfastmarket.appspot.com/products/broadcastnew?onlyPersist=false"
 		}
 		
 	if(x==1)
 		{
-			composedurl="http://askfastmarket1.appspot.com/products/broadcastnew?onlyPersist=true"
+			composedurl="http://askfastmarket.appspot.com/products/broadcastnew?onlyPersist=true"
 		}
 	
 	$.ajax({	

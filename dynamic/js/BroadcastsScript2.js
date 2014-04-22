@@ -381,7 +381,7 @@ function word_245Backup(Bname,Bmessage,BsenderName,BemailSubject)
 	$.ajax({	
 		type: "GET",
 		contentType: "application/json", 
-		url : "http://askfastmarket1.appspot.com/products/broadcastnew",
+		url : "http://askfastmarket.appspot.com/products/broadcastnew",
 		cache: false,
 		crossDomain: true,
 		xhrFields: {

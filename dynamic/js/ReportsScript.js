@@ -2,7 +2,7 @@
 
 function downloadBroadcast(bId)
 {
-	 var url = "http://askfastmarket1.appspot.com/products/broadcastnew/excel/export?id="+bId;
+	 var url = "http://askfastmarket.appspot.com/products/broadcastnew/excel/export?id="+bId;
 	 window.open(url, '_blank');
 }
 

@@ -149,7 +149,7 @@ function Gmail_Contacts_Info1(a){//
 //						withCredentials: true
 //						},
 //						data: datas,
-//						url : "http://askfastmarket1.appspot.com/accounts/contacts",
+//						url : "http://askfastmarket.appspot.com/accounts/contacts",
 //						cache: false,
 //						crossDomain: true,
 //						xhrFields: {
@@ -166,7 +166,7 @@ function Gmail_Contacts_Info1(a){//
 //						withCredentials: true
 //						},
 //						data: datasinfo,
-//						url : "http://askfastmarket1.appspot.com/accounts/contactinfos?forceNewContact=true",
+//						url : "http://askfastmarket.appspot.com/accounts/contactinfos?forceNewContact=true",
 //						cache: false,
 //						crossDomain: true,
 //						xhrFields: {
@@ -230,7 +230,7 @@ function Gmail_Contacts_Info1(a){//
 ////					xhr.setRequestHeader("X-SESSION_ID" , id)
 ////		 		},
 ////					data: datas,
-////					url : "http://askfastmarket1.appspot.com/accounts/contacts",
+////					url : "http://askfastmarket.appspot.com/accounts/contacts",
 ////					crossDomain: true,
 ////					xhrFields: {
 ////					withCredentials: true
@@ -261,7 +261,7 @@ function Gmail_Contacts_Info1(a){//
 ////				beforeSend : function(xhr) {          
 ////					xhr.setRequestHeader("X-SESSION_ID" , id)
 ////				 }, 
-////				url : "http://askfastmarket1.appspot.com/accounts/contactinfos?strict=true",
+////				url : "http://askfastmarket.appspot.com/accounts/contactinfos?strict=true",
 ////				crossDomain: true,
 ////				xhrFields: {
 ////				withCredentials: true
@@ -346,7 +346,7 @@ function delcnt(cntctid,span_id){
 				xhrFields: {
 				withCredentials: true
 				},
-				url : "http://askfastmarket1.appspot.com/accounts/contacts/"+cntctid,
+				url : "http://askfastmarket.appspot.com/accounts/contacts/"+cntctid,
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -391,7 +391,7 @@ function delGroup(cntctid,span_id){
 				xhrFields: {
 				withCredentials: true
 				},
-				url : "http://askfastmarket1.appspot.com/accounts/groups/"+cntctid, 
+				url : "http://askfastmarket.appspot.com/accounts/groups/"+cntctid, 
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -472,7 +472,7 @@ function updateGroup(count_id,div_id){
 		xhrFields: {
 		withCredentials: true
 		}, 
-		url : "http://askfastmarket1.appspot.com/accounts/groups/"+count_id,
+		url : "http://askfastmarket.appspot.com/accounts/groups/"+count_id,
 		cache: false,
 		crossDomain: true,
 		xhrFields: {
@@ -893,7 +893,7 @@ function showcnt1()
 					type: "GET",
 					contentType: "application/json",
 					dataType: 'JSON',
-					url : "http://askfastmarket1.appspot.com/accounts/contacts?detailed=true&orderBy=firstName&fetchOwner=false",
+					url : "http://askfastmarket.appspot.com/accounts/contacts?detailed=true&orderBy=firstName&fetchOwner=false",
 					cache: false,
 					xhrFields: {
 				withCredentials: true
@@ -918,7 +918,7 @@ function showcnt1()
 					xhrFields: {
 					withCredentials: true
 					},
-					url : "http://askfastmarket1.appspot.com/accounts/groups?detailed=true",
+					url : "http://askfastmarket.appspot.com/accounts/groups?detailed=true",
 					cache: false,
 					crossDomain: true,
 					success: function (data) {
@@ -955,7 +955,7 @@ function showGroupBtn(gpID,div_id){
 		xhrFields: {
 		withCredentials: true
 		}, 
-		url : "http://askfastmarket1.appspot.com/accounts/contactinfos?detailed=false&orderBy=firstName",
+		url : "http://askfastmarket.appspot.com/accounts/contactinfos?detailed=false&orderBy=firstName",
 		cache: false,
 		crossDomain: true,
 		xhrFields: {
@@ -1063,7 +1063,7 @@ function addmember(gpID,x)
 			xhrFields: {
 			withCredentials: true
 			},
-			url : "http://askfastmarket1.appspot.com/accounts/contacts?detailed=true&orderBy=firstName&fetchOwner=false",
+			url : "http://askfastmarket.appspot.com/accounts/contacts?detailed=true&orderBy=firstName&fetchOwner=false",
 			cache: false,
 
 			success: function (data) {
@@ -1627,7 +1627,7 @@ function editcontact1(count_id,div_id,emailTagid,PhoneTagid,LLineTagid,NoteId,na
 						withCredentials: true
 						},
 						data: datasinfo,
-						url : "http://askfastmarket1.appspot.com/accounts/contactinfos?forceNewContact=true",
+						url : "http://askfastmarket.appspot.com/accounts/contactinfos?forceNewContact=true",
 						cache: false,
 						crossDomain: true,
 						xhrFields: {
@@ -1743,7 +1743,7 @@ function addcnt2()
 						withCredentials: true
 						},
 						data: datas,
-						url : "http://askfastmarket1.appspot.com/accounts/contacts",
+						url : "http://askfastmarket.appspot.com/accounts/contacts",
 						cache: false,
 						crossDomain: true,
 						xhrFields: {
@@ -1760,7 +1760,7 @@ function addcnt2()
 						withCredentials: true
 						},
 						data: datasinfo,
-						url : "http://askfastmarket1.appspot.com/accounts/contactinfos?forceNewContact=true",
+						url : "http://askfastmarket.appspot.com/accounts/contactinfos?forceNewContact=true",
 						cache: false,
 						crossDomain: true,
 						xhrFields: {
@@ -1820,7 +1820,7 @@ function delgroup(groupid){
 				xhrFields: {
 				withCredentials: true
 				},
-				url : "http://askfastmarket1.appspot.com/accounts/groups/"+groupid,
+				url : "http://askfastmarket.appspot.com/accounts/groups/"+groupid,
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -1838,7 +1838,7 @@ function delgroup(groupid){
 				xhrFields: {
 				withCredentials: true
 				},
-				url : "http://askfastmarket1.appspot.com/accounts/groups",
+				url : "http://askfastmarket.appspot.com/accounts/groups",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -1861,7 +1861,7 @@ function delgroup(groupid){
 					xhrFields: {
 					withCredentials: true
 					},
-					url : "http://askfastmarket1.appspot.com/accounts/groups/"+ctid,
+					url : "http://askfastmarket.appspot.com/accounts/groups/"+ctid,
 					cache: false,
 					crossDomain: true,
 					xhrFields: {
@@ -1934,7 +1934,7 @@ function showgroup(){
 				dataType: 'html', 
 				xhrFields: {
 				withCredentials: true
-				},				url : "http://askfastmarket1.appspot.com/accounts/groups",
+				},				url : "http://askfastmarket.appspot.com/accounts/groups",
 				cache: false,
 				crossDomain: true,
 				xhrFields: {
@@ -1956,7 +1956,7 @@ function showgroup(){
 					xhrFields: {
 					withCredentials: true
 					},
-					url : "http://askfastmarket1.appspot.com/accounts/groups/"+ctid,
+					url : "http://askfastmarket.appspot.com/accounts/groups/"+ctid,
 					cache: false,
 					crossDomain: true,
 					xhrFields: {
@@ -2089,7 +2089,7 @@ function add_member(gpid,x)
 							xhrFields: {
 							withCredentials: true
 							}, 
-							url : "http://askfastmarket1.appspot.com/accounts/groups/"+gpid,
+							url : "http://askfastmarket.appspot.com/accounts/groups/"+gpid,
 							cache: false,
 							crossDomain: true,
 							xhrFields: {
@@ -2147,7 +2147,7 @@ function add_member(gpid,x)
 								xhrFields: {
 								withCredentials: true
 								}, 
-								url : "http://askfastmarket1.appspot.com/accounts/groups/"+gpid,
+								url : "http://askfastmarket.appspot.com/accounts/groups/"+gpid,
 								cache: false,
 								crossDomain: true,
 								xhrFields: {
@@ -2198,7 +2198,7 @@ function addgrp1(){
 			xhrFields: {
 			withCredentials: true
 			},
-			url : "http://askfastmarket1.appspot.com/accounts/groups",
+			url : "http://askfastmarket.appspot.com/accounts/groups",
 			cache: false,
 			crossDomain: true,
 			xhrFields: {
@@ -2279,7 +2279,7 @@ function addgrp(){
 			xhrFields: {
 			withCredentials: true
 			},
-			url : "http://askfastmarket1.appspot.com/accounts/groups",
+			url : "http://askfastmarket.appspot.com/accounts/groups",
 			cache: false,
 			crossDomain: true,
 			xhrFields: {

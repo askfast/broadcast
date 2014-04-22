@@ -87,7 +87,7 @@ function login(){
 			}
 					
 			
-		url="http://askfastmarket1.appspot.com/login?username="+uname+"&password="+passhash;
+		url="http://askfastmarket.appspot.com/login?username="+uname+"&password="+passhash;
 		
 		if(uname != '' && pass != '')
 		{

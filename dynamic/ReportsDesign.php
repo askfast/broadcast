@@ -34,7 +34,7 @@ function word_4(){
 		beforeSend : function(xhr) {          
 			xhr.setRequestHeader("X-SESSION_ID" , id)
 		  },
-		url : "http://askfastmarket1.appspot.com/products/broadcastnew",
+		url : "http://askfastmarket.appspot.com/products/broadcastnew",
 		cache: false,
 		crossDomain: true,
 		xhrFields: {

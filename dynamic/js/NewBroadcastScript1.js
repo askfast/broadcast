@@ -141,7 +141,7 @@ function addCntNewBroadcast()
 						withCredentials: true
 						},
 						data: datas,
-						url : "http://askfastmarket1.appspot.com/accounts/contacts",
+						url : "http://askfastmarket.appspot.com/accounts/contacts",
 						cache: false,
 						crossDomain: true,
 						xhrFields: {
@@ -158,7 +158,7 @@ function addCntNewBroadcast()
 						withCredentials: true
 						},
 						data: datasinfo1,
-						url : "http://askfastmarket1.appspot.com/accounts/contactinfos?forceNewContact=true",
+						url : "http://askfastmarket.appspot.com/accounts/contactinfos?forceNewContact=true",
 						cache: false,
 						crossDomain: true,
 						xhrFields: {
@@ -662,7 +662,7 @@ function AddBroadcast(x)
 									xhrFields: {
 									withCredentials: true
 									},
-									url : "http://askfastmarket1.appspot.com/accounts/groups/"+group_id,
+									url : "http://askfastmarket.appspot.com/accounts/groups/"+group_id,
 									cache: false,
 									crossDomain: true,
 									xhrFields: {
@@ -694,7 +694,7 @@ function AddBroadcast(x)
 												xhrFields: {
 												withCredentials: true
 												},
-												url : "http://askfastmarket1.appspot.com/accounts/contactinfos/"+contact_ids[i],
+												url : "http://askfastmarket.appspot.com/accounts/contactinfos/"+contact_ids[i],
 												asycn: false,
 												cache: false,
 												crossDomain: true,
@@ -779,7 +779,7 @@ function AddBroadcast(x)
 
 function authTwitt()
 {
-	window.location='http://askfastmarket1.appspot.com/accounts/adapterconfigs/twitter/oauth?frontendCallback=http://broadcast.ask-fast.com/product/dynamic/index.php';
+	window.location='http://askfastmarket.appspot.com/accounts/adapterconfigs/twitter/oauth?frontendCallback=http://broadcast.ask-fast.com/product/dynamic/index.php';
 	$('#afterAuth').val('set');
 }
 
@@ -823,7 +823,7 @@ function checkboxContacts(){
 			xhrFields: {
 			withCredentials: true
 			},
-			url : "http://askfastmarket1.appspot.com/accounts/contacts?detailed=true&orderBy=firstName&fetchOwner=false",
+			url : "http://askfastmarket.appspot.com/accounts/contacts?detailed=true&orderBy=firstName&fetchOwner=false",
 			cache: false,
 
 			success: function (data) {
@@ -1102,7 +1102,7 @@ function checkboxGroupsF(){
 			xhrFields: {
 			withCredentials: true
 			},
-			url : "http://askfastmarket1.appspot.com/accounts/groups?detailed=false",
+			url : "http://askfastmarket.appspot.com/accounts/groups?detailed=false",
 			cache: false,
 			crossDomain: true,
 			success: function (data) {
@@ -1186,7 +1186,7 @@ $(document).ready(function(){
 					xhrFields: {
 					withCredentials: true
 					},
-					url : "http://askfastmarket1.appspot.com/accounts/adapterconfigs",
+					url : "http://askfastmarket.appspot.com/accounts/adapterconfigs",
 					cache: false,
 					crossDomain: true,
 					xhrFields: {

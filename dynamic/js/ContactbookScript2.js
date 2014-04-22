@@ -17,7 +17,7 @@ function search_cnt()
 							xhrFields: {
 							withCredentials: true
 							},
-							url : "http://askfastmarket1.appspot.com/accounts/contacts/prefixsearch/"+search_token+"?detailed=true&orderBy=firstName&fetchOwner=false",
+							url : "http://askfastmarket.appspot.com/accounts/contacts/prefixsearch/"+search_token+"?detailed=true&orderBy=firstName&fetchOwner=false",
 							cache: false,
 				
 							success: function (data) {
@@ -92,7 +92,7 @@ function search_cnt()
 							xhrFields: {
 							withCredentials: true
 							},
-							url : "http://askfastmarket1.appspot.com/accounts/groups/prefixsearch/"+search_token+"?detailed=true",
+							url : "http://askfastmarket.appspot.com/accounts/groups/prefixsearch/"+search_token+"?detailed=true",
 							cache: false,
 				
 							success: function (data) {
@@ -164,7 +164,7 @@ function search_cnt()
 							xhrFields: {
 							withCredentials: true
 							},
-							url : "http://askfastmarket1.appspot.com/accounts/contacts/prefixsearch/"+search_token+"?detailed=true&orderBy=firstName&fetchOwner=false",
+							url : "http://askfastmarket.appspot.com/accounts/contacts/prefixsearch/"+search_token+"?detailed=true&orderBy=firstName&fetchOwner=false",
 							cache: false,
 				
 							success: function (data) {
@@ -232,7 +232,7 @@ function search_cnt()
 							xhrFields: {
 							withCredentials: true
 							},
-							url : "http://askfastmarket1.appspot.com/accounts/groups/prefixsearch/"+search_token+"?detailed=true",
+							url : "http://askfastmarket.appspot.com/accounts/groups/prefixsearch/"+search_token+"?detailed=true",
 							cache: false,
 				
 							success: function (data) {

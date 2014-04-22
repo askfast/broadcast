@@ -49,7 +49,7 @@ function editAccountDetails()
 						withCredentials: true
 						},
 						data: datasinfo,
-						url : "http://askfastmarket1.appspot.com/accounts/contactinfos?forceNewContact=true",
+						url : "http://askfastmarket.appspot.com/accounts/contactinfos?forceNewContact=true",
 						cache: false,
 						crossDomain: true,
 						xhrFields: {
@@ -85,7 +85,7 @@ function accountDetails()
 		xhrFields: {
 		withCredentials: true
 		},
-		url : "http://askfastmarket1.appspot.com/accounts/contacts/owner?detailed=true",
+		url : "http://askfastmarket.appspot.com/accounts/contacts/owner?detailed=true",
 		cache: false,
 		crossDomain: true,
 		xhrFields: {
@@ -474,7 +474,7 @@ function add_csvfile(){
 //				xhr.setRequestHeader("X-SESSION_ID" , id)
 //			 }, 
 
-			url : "http://askfastmarket1.appspot.com/blobstore/test.csv?!",
+			url : "http://askfastmarket.appspot.com/blobstore/test.csv?!",
 			
 			
 			
@@ -594,13 +594,13 @@ function fileup(){
    //alert(cntctid);
 		//var id = "<?php echo $session_id; ?>";
 			// ajax request to get contact's
-		var url = "http://askfastmarket1.appspot.com/blobstore/test.csv?!=&type=json";
-		//var url = "http://shravan.askfastmarket1.appspot.com/blobstore/testCSV.csv?!";
+		var url = "http://askfastmarket.appspot.com/blobstore/test.csv?!=&type=json";
+		//var url = "http://shravan.askfastmarket.appspot.com/blobstore/testCSV.csv?!";
 		//var datasinfo='{"PHONE": ["phoneNumber"],"NAME": ["firstNameHeader://firstName","lastNameHeader://lastName"],"SPECIAL": ["groupHeader://married","groupHeader://loyaltyPoints"]}';
 		//alert(datasinfo);
-		//askfastmarket1.appspot.com/blobstore/<someRandomFileName>?!
+		//askfastmarket.appspot.com/blobstore/<someRandomFileName>?!
 				
-		//	var url = "http://askfastmarket1.appspot.com/accounts/contacts";
+		//	var url = "http://askfastmarket.appspot.com/accounts/contacts";
 			//alert(url);
 			/*$.ajax({
 				type: "GET",
@@ -623,7 +623,7 @@ function fileup(){
 		$.ajax({
 			  url: url,
 			  type: "GET",
-			  //headers: { 'Access-Control-Allow-Origin': 'http://askfastmarket1.appspot.com/blobstore/test.csv?!=&type=json' },
+			  //headers: { 'Access-Control-Allow-Origin': 'http://askfastmarket.appspot.com/blobstore/test.csv?!=&type=json' },
 			  //jsonp : "callback",
 			 // dataType: "xml",
 			  //data: datasinfo,
@@ -827,7 +827,7 @@ function testbrod(){
 		var rlline='';
 		var remail='';
   	}
-	url="http://askfastmarket1.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
+	url="http://askfastmarket.appspot.com/login?username=yasir&password=a78a9b37dce265aa2e87ca6db3e1d287";
 				$.post(url,function(session){
 				var jasonValue = JSON.stringify(session) ; 
 			    var n=jasonValue.replace('{"X-SESSION_ID":"',"");
@@ -847,7 +847,7 @@ function testbrod(){
 						xhrFields: {
 						withCredentials: true
 						},
-						url : "http://askfastmarket1.appspot.com/accounts/groups",
+						url : "http://askfastmarket.appspot.com/accounts/groups",
 						cache: false,
 						crossDomain: true,
 						xhrFields: {
