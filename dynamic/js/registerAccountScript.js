@@ -106,7 +106,8 @@ window.location ="./index.php";
 				})
 					},
 					error: function (data){
-						//alert(data.responseJSON.status);
+						$('#empty_field').hide(1000);
+						$('#wrong_pass_msg').show(1000);
 					}
 			});
 		}
